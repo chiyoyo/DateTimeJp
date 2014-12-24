@@ -1,0 +1,21 @@
+¡(PHP 5 >= 5.2.0)
+DateTime::__construct
+DateTime::__set_state
+DateTime::__wakeup
+DateTime::format
+DateTime::getOffset
+DateTime::getTimezone
+DateTime::modify
+DateTime::setDate
+DateTime::setISODate
+DateTime::setTime
+DateTime::setTimezone
+
+¡(PHP 5 >= 5.3.0)
+DateTime::add
+DateTime::createFromFormat
+DateTime::diff
+DateTime::getLastErrors
+DateTime::getTimestamp
+DateTime::setTimestamp
+DateTime::sub

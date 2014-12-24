@@ -1,0 +1,17 @@
+1.0.2	月末日(lastDay)、閏年(leapYear)をフォーマット日付がデフォルトで持っていたので削除。
+		lastDay：t、leapYear：L。メソッドは共に削除しない。
+
+1.1.0	西暦年月日を和暦年月日に変換する - yearToWareki()、
+		和暦年月日を西暦年月日に変換する - warekiToYear() を追加。
+		privateメソッド _lastDay(), _isLeapYear(), _isHoliDay() の削除
+
+1.2.0	西暦和暦変換メソッドを追加
+		西暦年月日を和暦年月日(平成yy年mm月dd日 形式)に変換する - yearToWareki()
+		西暦年月日を和暦年月日(平yy年mm月dd日 形式)に変換する - yearToWareki2()
+		西暦年月日を和暦年月日(平yy/mm/dd 形式)に変換する - yearToWareki3()
+		西暦年月日を和暦年月日(Hyy/mm/dd 形式)に変換する - yearToWareki4()
+		西暦年月日を和暦年月日(hyy/mm/dd 形式)に変換する - yearToWareki5()
+
+		和暦西暦変換メソッド - warekiToyear() に「平yy年mm月dd日」形式を対応。
+
+		メンバ変数 wareki2, wareki3, wareki4, wareki5, nengo2, nengo3, nengo4, nengo5の追加。
