@@ -7,7 +7,7 @@
  * @update 2014/11/09
  * @charset UTF-8
  * @author mamiya_shou
- * @licence MIT
+ * @license MIT
  * @memo DateTimeオブジェクトを継承
  * @caution PHP 5.2以上必須、5.3以上推奨
  * @reference
